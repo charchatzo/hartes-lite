@@ -1,9 +1,0 @@
-/home/kostas/Projects/deep-divegtksharp/deep-divegtksharp/obj/x86/Debug/deep-divegtksharp.csprojAssemblyReference.cache
-/home/kostas/Projects/deep-divegtksharp/deep-divegtksharp/obj/x86/Debug/deep-divegtksharp.csproj.CoreCompileInputs.cache
-/home/kostas/Projects/deep-divegtksharp/deep-divegtksharp/bin/Debug/deep-divegtksharp.exe
-/home/kostas/Projects/deep-divegtksharp/deep-divegtksharp/bin/Debug/deep-divegtksharp.pdb
-/home/kostas/Projects/deep-divegtksharp/deep-divegtksharp/obj/x86/Debug/deep-divegtksharp.exe
-/home/kostas/Projects/deep-divegtksharp/deep-divegtksharp/obj/x86/Debug/deep-divegtksharp.pdb
-/home/kostas/Projects/deep-divegtksharp/deep-divegtksharp/bin/Debug/webkit2-sharp.dll
-/home/kostas/Projects/deep-divegtksharp/deep-divegtksharp/bin/Debug/webkit2-sharp.dll.config
-/home/kostas/Projects/deep-divegtksharp/deep-divegtksharp/obj/x86/Debug/deep-divegtksharp.csproj.CopyComplete

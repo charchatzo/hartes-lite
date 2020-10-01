@@ -1,0 +1,6 @@
+/home/charalabos/hartes-lite/deep-divegtksharp/bin/Release/deep-divegtksharp.exe
+/home/charalabos/hartes-lite/deep-divegtksharp/bin/Release/webkit2-sharp.dll
+/home/charalabos/hartes-lite/deep-divegtksharp/bin/Release/webkit2-sharp.dll.config
+/home/charalabos/hartes-lite/deep-divegtksharp/obj/x86/Release/deep-divegtksharp.csproj.CoreCompileInputs.cache
+/home/charalabos/hartes-lite/deep-divegtksharp/obj/x86/Release/deep-divegtksharp.csproj.CopyComplete
+/home/charalabos/hartes-lite/deep-divegtksharp/obj/x86/Release/deep-divegtksharp.exe

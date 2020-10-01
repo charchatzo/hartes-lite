@@ -1,0 +1,6 @@
+/home/charalabos/Projects/ddsharp/ddsharp/obj/x86/Debug/ddsharp.csprojAssemblyReference.cache
+/home/charalabos/Projects/ddsharp/ddsharp/obj/x86/Debug/ddsharp.csproj.CoreCompileInputs.cache
+/home/charalabos/Projects/ddsharp/ddsharp/bin/Debug/ddsharp.exe
+/home/charalabos/Projects/ddsharp/ddsharp/bin/Debug/ddsharp.pdb
+/home/charalabos/Projects/ddsharp/ddsharp/obj/x86/Debug/ddsharp.exe
+/home/charalabos/Projects/ddsharp/ddsharp/obj/x86/Debug/ddsharp.pdb
