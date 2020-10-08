@@ -34,14 +34,29 @@ namespace ddsharp
 
     You should have received a copy of the GNU General Public License
     along with Deep Dive.If not, see < https://www.gnu.org/licenses/>.";
-
+            Gtk.Window history = new Gtk.Window(Gtk.WindowType.Toplevel);
+            TextView historyView = new TextView();
+            TextTagTable historyViewBufferTextTagTable = new TextTagTable();
+            TextBuffer historyViewBuffer = new TextBuffer(historyViewBufferTextTagTable);
+            Button showHistory = new Button();
+            showHistory.Label = "History";
+            historyView.Buffer = historyViewBuffer;
+            history.Add(historyView);
+            historyViewBuffer.Text = "Session History";
+            showHistory.Released += (sender, e) => {
+                history.ShowAll();
+                history.Resize(700, 700);
+            };
             about.Show();
             about.DestroyWithParent = true;
             about.TransientFor = win;
             about.Modal = true;
             about.Artists = artist;
             about.Authors = author;
-            about.ProgramName = "Deep Dive lite(sharp)";
+            about.ProgramName = @"Deep Dive lite(sharp)
+            A privacy oriented web browser 
+            which keeps only session history";
+
             about.Version = "1.0";
             about.License = license;
             about.Logo = mainIcon;
@@ -70,6 +85,7 @@ namespace ddsharp
             mainGrid.AttachNextTo(forward, searchBar, PositionType.Left, 1, 1);
             mainGrid.AttachNextTo(back, forward, PositionType.Left, 1, 1);
             mainGrid.AttachNextTo(reload, back, PositionType.Left, 1, 1);
+            mainGrid.AttachNextTo(showHistory, reload, PositionType.Left, 1, 1);
 
             mainView.Hexpand = true;
             mainView.Vexpand = true;
@@ -89,6 +105,7 @@ namespace ddsharp
             mainView.LoadChanged += (o, sender) => {
                 searchBar.Text = mainView.Uri;
                 win.Title = mainView.Title + " - Deep Dive lite";
+                historyViewBuffer.Text = historyViewBuffer.Text + "\n" + mainView.Uri;
             };
 
             mainView.Inspector.Show();

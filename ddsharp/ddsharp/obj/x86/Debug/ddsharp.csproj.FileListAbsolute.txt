@@ -4,3 +4,9 @@
 /home/charalabos/Projects/ddsharp/ddsharp/bin/Debug/ddsharp.pdb
 /home/charalabos/Projects/ddsharp/ddsharp/obj/x86/Debug/ddsharp.exe
 /home/charalabos/Projects/ddsharp/ddsharp/obj/x86/Debug/ddsharp.pdb
+/home/charalamposchatzoglou/hartes-lite/ddsharp/ddsharp/bin/Debug/ddsharp.exe
+/home/charalamposchatzoglou/hartes-lite/ddsharp/ddsharp/bin/Debug/ddsharp.pdb
+/home/charalamposchatzoglou/hartes-lite/ddsharp/ddsharp/obj/x86/Debug/ddsharp.csprojAssemblyReference.cache
+/home/charalamposchatzoglou/hartes-lite/ddsharp/ddsharp/obj/x86/Debug/ddsharp.csproj.CoreCompileInputs.cache
+/home/charalamposchatzoglou/hartes-lite/ddsharp/ddsharp/obj/x86/Debug/ddsharp.exe
+/home/charalamposchatzoglou/hartes-lite/ddsharp/ddsharp/obj/x86/Debug/ddsharp.pdb
