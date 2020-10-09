@@ -34,6 +34,7 @@ namespace ddsharp
 
     You should have received a copy of the GNU General Public License
     along with Deep Dive.If not, see < https://www.gnu.org/licenses/>.";
+
             about.Show();
             about.DestroyWithParent = true;
             about.TransientFor = win;
@@ -83,7 +84,7 @@ namespace ddsharp
             };
             mainView.Inspector.Show();
             mainView.Settings = mainViewSettings;
-            mainView.LoadUri("https://google.com/");
+            mainView.LoadUri("https://duckduckgo.com/");
             win.Add(mainGrid);
             win.ShowAll();
             Application.Run();

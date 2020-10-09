@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{8B354678-18C8-4E48-B434-EB826DA528F6}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="ddsharp/Program.cs">
     <Files>
-      <File FileName="ddsharp/Program.cs" Line="40" Column="83" />
+      <File FileName="ddsharp/Program.cs" Line="87" Column="49" />
       <File FileName="ddsharp/MainWindow.cs" Line="13" Column="22" />
     </Files>
     <Pads>
